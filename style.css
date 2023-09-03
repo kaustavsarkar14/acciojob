@@ -225,6 +225,21 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 9px;
+}
+.beginner {
+    border: 2px solid var(--primaryskyblue, #2F80ED);
+}
+.card-badge {
+    position: relative;
+    top: -2.6rem;
+    background-color: #2F80ED;
+    color: white;
+    font-style: italic;
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding: 6px 15px;
+    border-radius: 7px;
 }
 
 .heading {
