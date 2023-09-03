@@ -331,10 +331,12 @@ header {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .hiring-partners>h2 {
     font-weight: lighter;
     font-style: italic;
 }
+
 .hiring-partners {
     display: flex;
     flex-direction: column;
@@ -342,6 +344,7 @@ header {
     gap: 1rem;
     align-items: center;
 }
+
 .hiring-partners>button {
     cursor: pointer;
     border-radius: 8px;
@@ -355,21 +358,89 @@ header {
     color: white;
     border: none;
 }
+
 .reviews {
     padding: 3rem 6rem;
 }
+
 .review-div>img {
     padding: 0.4rem;
     box-shadow: 5px 9px 40px 0px rgba(0, 0, 0, 0.08);
 }
-.review-div{
+
+.review-div {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
     margin-top: 2rem;
+    width: 100%;
 }
 
+.reviews>h2 {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.reviews>h6 {
+    font-weight: lighter;
+    opacity: 0.7;
+}
+
+.card {
+    width:25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 24px;
+    border-radius: 10px;
+    border: 2px solid #D7D7D7;
+    background: #FFF;
+    box-shadow: 5px 9px 40px 0px rgba(0, 0, 0, 0.08);
+}
+
+.card-top {
+    display: flex;
+    gap: 1rem;
+}
+
+.card-top>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.social-icon {
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+}
+
+.card-top>div>h4 {
+    color: #000;
+    font-family: ABeeZee;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.card-top>div>h6 {
+    color: #676767;
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 602;
+    line-height: 150%;
+    min-width: 9rem;
+}
+
+.card-bottom {
+    color: #676767;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
 
 @media only screen and (max-width: 768px) {
     nav {
@@ -377,54 +448,72 @@ header {
         background-color: white;
         z-index: 100;
     }
+
     nav>ul {
         display: none;
     }
+
     .next-batch-info {
         width: 100vw;
     }
+
     header {
         flex-direction: column;
         width: 100vw;
         padding: 1rem;
     }
-    .header-left{
+
+    .header-left {
         width: 100%;
     }
+
     .header-left>h4 {
         margin-top: 2rem;
     }
-    .header-right{
+
+    .header-right {
         width: 90vw;
     }
+
     .header-left>h2 {
         font-size: 2rem;
         text-align: center;
     }
-    .hiring-partners{
+
+    .hiring-partners {
         width: 100vw;
         margin-top: 2rem;
         padding: 0;
     }
+
     .hiring-partners>img {
         width: 100%;
     }
-    .arrow{
+
+    .arrow {
         display: none;
     }
+
     .courses-offered {
         width: 100vw;
         padding: 0;
         height: max-content;
     }
+
     .courses {
         flex-direction: column;
     }
+
     .courses>div {
         width: 100%;
     }
-    .header-left>div{
+
+    .header-left>div {
         flex-wrap: wrap;
         gap: 20px;
+    }
+
+    .reviews {
+        padding: 1rem;
     }
 }
