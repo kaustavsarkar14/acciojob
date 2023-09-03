@@ -420,4 +420,7 @@ header {
     .courses>div {
         width: 100%;
     }
-}
+    .header-left>div{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
