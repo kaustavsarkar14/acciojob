@@ -220,7 +220,7 @@ header {
 .beginner,
 .intermediate {
     background-color: white;
-    padding: 2rem 2rem;
+    padding: 2.5rem 2rem;
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -232,14 +232,16 @@ header {
 }
 .card-badge {
     position: relative;
-    top: -2.6rem;
+    top: -3rem;
     background-color: #2F80ED;
     color: white;
+    font-size: smaller;
     font-style: italic;
     font-weight: lighter;
     text-transform: uppercase;
-    padding: 6px 15px;
+    padding: 4px 20px;
     border-radius: 7px;
+    margin-bottom: -2rem;
 }
 
 .heading {
